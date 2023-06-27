@@ -4,7 +4,7 @@ import { Success } from './components/Success'
 import { Users } from './components/Users'
 import { useEffect, useState } from 'react'
 
-// Тут список пользователей: https://reqres.in/api/users
+// список пользователей: https://reqres.in/api/users
 
 function App() {
 	const [users, setUsers] = useState([])
